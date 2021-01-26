@@ -18,9 +18,9 @@ body {
     box-sizing: border-box;
     border: 1px solid #cccccc;
     border-radius: 2px;
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
+    padding: 0 0.6rem;
+    height: 2.1rem;
+    line-height: 2.1rem;
     font-size: 16px;
     color: #666;
     cursor: pointer;
@@ -31,16 +31,13 @@ body {
     background: white linear-gradient(0deg, #ffffff 0%, #f3f3f3 100%)
 }
 
+.hidden {
+    display: none;
+}
+
 #captcha {
     width: 300px;
     display: inline-block;
-}
-
-label {
-    vertical-align: top;
-    display: inline-block;
-    width: 120px;
-    text-align: right;
 }
 
 #text {
@@ -56,12 +53,15 @@ label {
 }
 
 #wait {
-    display: none;
     height: 42px;
     width: 298px;
     text-align: center;
     border-radius: 2px;
     background-color: #F3F3F3;
+}
+
+.success {
+    color: #28a745;
 }
 
 .loading {
